@@ -130,7 +130,7 @@ ggplot(avg_daily_steps, aes(interval, avg_steps)) + geom_line(col = "orange") +
   labs(x = "5-minute intervals", y = "Average Number of Steps", title = "Average Daily Steps Across All Days")
 ```
 
-![plot of chunk Plot a time series plot](figure/Plot a time series plot-1.png)
+![plot of chunk Plot a time series plot](<figure/Plot a time series plot-1.png>)
   
 ### 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -214,7 +214,7 @@ ggplot(total_steps_no_NA_df, aes(steps_no_NA)) + geom_histogram(binwidth = 1000,
   labs(x = "Steps", y = "Frequency", title = "Total Number of Steps Taken each Day w/o NAs (Histogram)")
 ```
 
-![plot of chunk Histogram of the total number of steps taken each day with no NA dataset](figure/Histogram of the total number of steps taken each day with no NA dataset-1.png)
+![plot of chunk Histogram of the total number of steps taken each day with no NA dataset](<figure/Histogram of the total number of steps taken each day with no NA dataset-1.png>)
 
 #### Calculate and report mean and median total number of steps taken per day
 
@@ -311,4 +311,4 @@ ggplot(avg_daily_steps_total, aes(interval, average_steps)) + geom_line(aes(colo
   labs(x = "5-minute intervals", y = "Average Number of Steps", title = "Average Daily Steps Across All weekdays or weekends")
 ```
 
-![plot of chunk plot of average_daily_steps across all weekdays and weekends](figure/plot of average_daily_steps across all weekdays and weekends-1.png)
+![plot of chunk plot of average_daily_steps across all weekdays and weekends](<figure/plot of average_daily_steps across all weekdays and weekends-1.png>)
