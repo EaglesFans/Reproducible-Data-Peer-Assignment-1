@@ -71,7 +71,7 @@ ggplot(total_steps_df, aes(total_steps)) + geom_histogram(binwidth = 1000, fill 
 ## Warning: Removed 8 rows containing non-finite values (stat_bin).
 ```
 
-![plot of chunk Histogram of the total number of steps taken each day](figure/Histogram of the total number of steps taken each day-1.png)
+![plot of chunk Histogram of the total number of steps taken each day](<figure/Histogram of the total number of steps taken each day-1.png>)
 
 ### 3. Calculate and report the mean and median of the total number of steps taken per day
 #### Mean of the total number of steps taken per day
